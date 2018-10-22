@@ -9,10 +9,14 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "firebase": "^5.5.5",
     "node-sass": "^4.9.4",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.17",
-    "vue-router": "^3.0.1"
+    "vue-concise-slider": "^3.2.1",
+    "vue-pixi": "^0.1.1",
+    "vue-router": "^3.0.1",
+    "vuefire": "^1.4.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",

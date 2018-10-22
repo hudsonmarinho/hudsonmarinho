@@ -1,0 +1,18 @@
+$font-default: "Roboto";
+$font-default-title: "Roboto Condensed";
+$font-regular: 'Crete Round';
+$font-secondary: 'Arimo';
+// $font-regular: 'Akkurat Mono';
+// $font-secondary: 'Arimo';
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i');
+
+
+// @include font-face($font-regular, '/src/assets/fonts/', 'akkurat-mono', '');
+// @include font-face($font-secondary, '/src/assets/fonts/', 'theinhardt', '');
