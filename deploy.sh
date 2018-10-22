@@ -4,13 +4,13 @@
 set -e
 
 # build
-npm run build
+yarn build
 
 # navigate into the build output directory
 cd dist
 
 # if you are deploying to a custom domain
-echo 'www.hudsonmarinho.com' > CNAME
+echo 'hudsonmarinho.com' > CNAME
 
 git init
 git add -A
