@@ -1,0 +1,48 @@
+.logo{
+  height: 80px;
+  display: block;
+  background: transparent;
+  margin: 0 0;
+  padding: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  @include for-tablet-landscape-up {
+    background: #101015;
+  }
+
+  a{
+    padding: 10px 0;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+
+    &,
+    & small{
+      font-size: .875rem;
+      line-height: 1;
+      font-weight: 400;
+    }
+  }
+
+  span{
+    text-transform: uppercase;
+  }
+
+  small{
+    display: none;
+    margin-left: 5px;
+    color: #63637e;
+  }
+
+  @include for-tablet-landscape-up {
+    span{
+      text-transform: lowercase;
+    }
+
+    small{
+      display: inline-block;
+    }
+  }
+}

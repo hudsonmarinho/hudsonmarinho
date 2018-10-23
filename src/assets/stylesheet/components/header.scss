@@ -1,0 +1,17 @@
+.header{
+  height: 80px;
+  padding: 0 20px;
+  grid-template-columns: 2fr 4fr;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 3;
+
+  @include for-tablet-portrait-up {
+    padding: 0 80px;
+  }
+
+  @include for-phone-only {
+    padding-left: 20px;
+  }
+}

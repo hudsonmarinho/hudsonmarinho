@@ -1,18 +1,8 @@
 <template>
   <div id="root">
-    <div class="shell is-home">
-      <AppHeader />
-
-      <main class="main">
-        <div class="view home">
-          <router-view/>
-        </div>
-      </main>
-
-      <AppFooter />
-
-      <div class="overlay"></div>
-    </div>
+    <AppHeader />
+    <router-view />
+    <AppFooter />
   </div>
 </template>
 

@@ -1,0 +1,16 @@
+.menu{
+  display: none;
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+
+  @include for-tablet-landscape-up {
+    display: grid;
+  }
+
+  a{
+    display: inline-block;
+    padding: 5px;
+  }
+}

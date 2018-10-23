@@ -1,18 +1,61 @@
-$font-default: "Roboto";
-$font-default-title: "Roboto Condensed";
-$font-regular: 'Crete Round';
-$font-secondary: 'Arimo';
-// $font-regular: 'Akkurat Mono';
+// $font-default: "Roboto";
+// $font-default-title: "Roboto Condensed";
+// $font-regular: 'Crete Round';
 // $font-secondary: 'Arimo';
+// // $font-regular: 'Akkurat Mono';
+// // $font-secondary: 'Arimo';
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+// @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+// @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
-@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
-@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i');
+// @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+// @import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i');
 
 
-// @include font-face($font-regular, '/src/assets/fonts/', 'akkurat-mono', '');
-// @include font-face($font-secondary, '/src/assets/fonts/', 'theinhardt', '');
+// // @include font-face($font-regular, '/src/assets/fonts/', 'akkurat-mono', '');
+// // @include font-face($font-secondary, '/src/assets/fonts/', 'theinhardt', '');
+
+
+$font-regular: "Theinhardt";
+$font-secondary: "Akkurat Mono";
+
+@font-face{
+  font-family: $font-regular;
+  src:url(../fonts/Theinhardt-Bold.eot);
+  src:url(../fonts/Theinhardt-Bold.eot?#iefix) format("embedded-opentype"),
+      url(../fonts/Theinhardt-Bold.woff) format("woff"),
+      url(../fonts/Theinhardt-Bold.ttf) format("truetype");
+  font-weight:700;
+  font-style:normal;
+}
+
+@font-face{
+  font-family: $font-regular;
+  src:url(../fonts/Theinhardt-Medium.eot);
+  src:url(../fonts/Theinhardt-Medium.eot?#iefix) format("embedded-opentype"),
+      url(../fonts/Theinhardt-Medium.woff) format("woff"),
+      url(../fonts/Theinhardt-Medium.ttf) format("truetype");
+  font-weight:400;
+  font-style:normal;
+}
+
+@font-face{
+  font-family: $font-regular;
+  src:url(../fonts/Theinhardt-Light.eot);
+  src:url(../fonts/Theinhardt-Light.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Theinhardt-Light.woff) format("woff"),
+    url(../fonts/Theinhardt-Light.ttf) format("truetype");
+  font-weight:300;
+  font-style:normal;
+}
+@font-face{
+  font-family: $font-secondary;
+  src:url(../fonts/akkurat-mono.eot);
+  src:url(../fonts/akkurat-mono.eot?#iefix) format("embedded-opentype"),
+      url(../fonts/akkurat-mono.woff) format("woff"),
+      url(../fonts/akkurat-mono.ttf) format("truetype");
+  font-weight:400;
+  font-style:normal;
+}

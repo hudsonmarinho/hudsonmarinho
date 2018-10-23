@@ -1,0 +1,29 @@
+.view {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: url('https://bonhomme.lol/static/media/soundscape.5364aaca.jpg') no-repeat center center;
+  background-size: cover;
+  position: fixed;
+
+  @include for-tablet-landscape-up {
+    background: transparent;
+    position: absolute;
+    min-height: calc(100vh - 80px);
+    top: 80px;
+    left: 80px;
+    right: 80px;
+  }
+
+  &.home{}
+
+  .slider-container{
+    white-space: normal;
+  }
+
+  .slider-item{
+    justify-content: inherit;
+    text-align: inherit;
+  }
+}

@@ -1,0 +1,31 @@
+.footer{
+  width: 80px;
+  padding: 0px 0px;
+  background: #101015;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 1;
+
+  @include for-tablet-landscape-up {
+    display: flex;
+  }
+
+  &-item{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+
+    &:hover{
+      transform: scale(1.4);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  box-sizing: border-box;
+  font-family: $font-regular, monospace;
+  font-size: 100%;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #22222a;
+  color: #fff;
+  font-family: $font-regular;
+  position: relative;
+  font-size: .875rem;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto !important;
+}
+
+.header,
+.footer{
+  position: fixed;
+}
+
+.header,
+.portfolio{
+  display: grid;
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+}
